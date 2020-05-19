@@ -36,7 +36,6 @@ class Session:
 
     def segment_type(self):
         return self.current_segment.type
-        
 
     def next_segment(self):
         try:

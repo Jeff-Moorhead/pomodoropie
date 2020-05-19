@@ -11,7 +11,8 @@ represent the duration of each corresponding segment, should the user decide the
 durations.
 
 In between each session, an alert box is displayed to tell the user that the segment is over and how much time
-there is in the new segment. The alert box is powered by Zenity and will appear even if the user is in a different
+there is in the new segment. The user should only exit the alert box when they are ready to move onto the
+next segment of the session. The alert box is powered by Zenity and will appear even if the user is in a different
 window. This is to ensure that the user will always know when it is time to break or time to start working.
 
 Pomodoropie may be simple, but it will be handy if you just need a simple time keeping device. Please feel free

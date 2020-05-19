@@ -1,8 +1,3 @@
-# A session is made up of a user-defined number of work and short break segments followed by one long break.
-# The user defines the length of each segment.
-# After each segment ends, the user is alerted that it's time to go to the next segment.
-# After the long break, the session ends.
-
 import time
 import sys
 
@@ -12,7 +7,6 @@ class Timer:
         self.seconds = minutes * 60
 
     def count_down(self):
-        # Counter down for `length` minutes
         endtime = time.time() + self.seconds
         
         while time.time() < endtime:

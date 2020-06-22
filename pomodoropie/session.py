@@ -8,7 +8,7 @@ class Timer:
 
     def count_down(self):
         endtime = time.time() + self.seconds
-        
+
         while time.time() < endtime:
             time.sleep(10)
 
@@ -45,4 +45,3 @@ class Session:
 
     def stop(self):
         sys.exit(0)
-         

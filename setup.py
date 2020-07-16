@@ -6,7 +6,7 @@ with open(path.join(this_dir, "README.rst"), encoding="utf-8") as readme:
     long_description = readme.read()
 
 setup(
-    version="1.0.2",
+    version="1.0.3",
     name="Pomodoropie",
     description="A Python pomodoro clock",
     long_description=long_description,
